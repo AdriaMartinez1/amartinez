@@ -1,0 +1,101 @@
+header{
+    display: inline-flex;
+    width: 100%;
+   
+    margin-left: 150px;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+.imatges1{
+    
+    max-width: 100%;
+}
+.Fo{
+    display: inline-block;
+}
+.contenedor{
+    display: inline-flex;
+}
+
+
+.middle{
+    width: 30%;
+    height: 30%;
+    margin: 20px;
+}
+
+
+.imatges2{
+    width: 200px;
+    height: 100%;
+   
+
+}
+
+.middle:hover{
+    transform: scale(1.1);
+}
+
+body{
+    background-color: grey;
+}
+
+p{
+    font-size: 50px;
+    color: white;
+    
+}
+
+.grup{
+    color: white;
+    font-size: 25px;
+    display: flex;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    color: black;
+  }
+  
+  td, th {
+    border: 1px solid black;
+    text-align: left;
+    padding: 8px;
+    background-color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: white;
+  }
+
+
+.container{
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+
+
+.mapa{
+    border-radius: 20px;
+    
+}
+
+
+
+footer{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 13px;
+    margin-top: 13px;
+    border: 2px solid black;
+    padding: 10px,40px; 
+  }
