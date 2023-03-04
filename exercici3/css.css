@@ -1,0 +1,225 @@
+
+
+.Hola {
+  width: 100%;
+
+margin-right: 7px;
+position: relative;
+display: inline-block;
+
+}
+
+
+
+.capcalera{
+  position: absolute;
+top: 50%;
+left: 10%;
+font-size: 350%;
+color: white;
+font-weight: bold;
+-webkit-text-stroke: 2px black;
+
+}
+
+
+.columnes {
+  column-count: 2;
+}
+body {
+font-size: 20px;
+/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f6f8f9+0,e5ebee+50,d7dee3+51,f5f7f9+100;White+Gloss */
+background: rgb(246,248,249); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(246,248,249,1) 0%, rgba(229,235,238,1) 50%, rgba(215,222,227,1) 51%, rgba(245,247,249,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(246,248,249,1) 0%,rgba(229,235,238,1) 50%,rgba(215,222,227,1) 51%,rgba(245,247,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6f8f9', endColorstr='#f5f7f9',GradientType=0 ); /* IE6-9 */
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: black;
+}
+
+h2{
+  text-align: center;
+}
+
+.flex-container {
+  display: flex;
+  margin: 10px;
+  padding: 20px;
+}
+
+
+.vid{
+  margin: 10px;
+  padding: 20px;
+  
+}
+
+.flex-containerr{
+  align-content: center;
+}
+
+
+.lloc{
+  display:block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+}
+
+
+
+footer{
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  text-align: center;
+  margin-bottom: 13px;
+  margin-top: 13px;
+  border: 2px solid black;
+  padding: 10px,40px;
+}
+
+
+@media screen and (max-width: 575px) {
+  .capcalera {
+    font-size: 100%;
+    top: 10%;
+  }
+
+  li a {
+    
+    font-size: 50%;
+  }
+
+  .columnes {
+    font-size: 70%;
+  }
+  .foto {
+    width: 100%;
+  }
+
+  .flex-container{
+    display:flex;
+    flex-direction: column;
+  }
+
+.vid{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.lloc{
+  width: 100%;
+}
+
+}
+
+@media screen and (min-width:576px) and (max-width: 767px)  {
+  .capcalera {
+    font-size: 160%;
+    top: 10%;
+  }
+
+  li a {
+    
+    font-size: 80%;
+  }
+
+  .columnes {
+    font-size: 90%;
+  }
+  .foto {
+    width: 100%;
+  }
+
+  .flex-container{
+    display:flex;
+    flex-direction: column;
+  }
+
+.vid{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.lloc{
+  width: 100%;
+}
+
+}
+
+
+@media screen and (min-width:768px) and (max-width: 991px)  {
+  .capcalera {
+    font-size: 210%;
+    top: 10%;
+  }
+
+  li a {
+    
+    font-size: 80%;
+  }
+
+  .columnes {
+    font-size: 90%;
+  }
+  .foto {
+    width: 100%;
+  }
+
+  .flex-container{
+    display:flex;
+    flex-direction: column;
+  }
+
+.vid{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.lloc{
+  width: 100%;
+}
+}
+
+@media screen and (min-width:992px) and (max-width: 1199px)  {
+  
+}
+
+@media screen and (min-width:1200px) {
+  
+}
