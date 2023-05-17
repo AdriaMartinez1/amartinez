@@ -1,0 +1,15 @@
+.btn-primary {
+    width: 200px;
+    background-color: #48a9af!important;
+    border-color: #48a9af!important;
+}
+.fa-rocket-support {
+    position: absolute;
+    color: red;
+    left: 0;
+    top: 75vh!important;
+    font-size: 100px;
+    color: #ddf5f4;
+    transform: rotate(45deg);
+
+}

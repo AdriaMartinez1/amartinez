@@ -1,0 +1,20 @@
+.products-section {
+    background-color: #0d1122!important;
+    padding-top: 15vh;
+}
+.categories label {
+    color: white;
+    margin-bottom: 4px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.categories {
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+    width: 200px;
+}
+.card {
+    height: 700px!important;
+    margin-bottom: 20px;
+}
