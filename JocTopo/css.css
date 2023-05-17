@@ -1,0 +1,65 @@
+header{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 60px;
+color: aliceblue;
+}
+
+
+        .container{
+
+            justify-content: center;
+            flex-wrap: wrap;
+            text-align: center;
+
+        }
+
+
+
+
+
+        .columna {
+            float: left;
+            width: 10%;
+            padding-right: 5px;
+        }
+
+        
+
+        img {
+            
+            width: 130px;
+        }
+
+
+body{
+
+    background-image: url('grass.jpg');
+}
+        
+
+
+h2{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 40px;
+color: aliceblue;
+
+}
+
+p{
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+color: aliceblue;
+}
+
+
+.div1{
+    justify-content: center;
+    align-content: center;
+    display:flex;
+}
