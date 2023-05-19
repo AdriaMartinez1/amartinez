@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css2.css" />
+    <title>Quiz</title>
+</head>
+<body>
+    <header>
+        <h1>QUESTIONARI JAVASCRIPT</h1>
+    </header>
+    
+    <div class="div1">
+        <h2>Temps restant:  </h2>
+        <p id="p1">100</p>
+    </div>
+
+        <div class="pregunta">
+            <img src="1.png" alt="" id="imatge">
+
+            
+            <div class="opcions" id="respostes">
+                <label for="pregunta1" id="preg" class="pregunta0"></label>
+                    <div>
+                        <input type="radio" name="status" value=1 id="radio1" onclick="ActivarEnviar()">
+                        <label for="example" id="v1" >Clickyclick</label>
+                    </div>
+                    </input> 
+                    <div>                   
+                    <input type="radio" name="status" value=2 id="radio2" onclick="ActivarEnviar()">
+                    <label for="example" id="v2" >Clickyclick</label>
+                </input> 
+            </div>
+                <div> 
+                    <input type="radio" name="status" value=3 id="radio3" onclick="ActivarEnviar()">
+                    <label for="example" id="v3" >Clickyclick</label>
+                </input> 
+            </div> 
+                <input type="submit" onclick="Contestar()" id="enviar"/>
+
+
+
+                
+            </div>
+
+        </div>
+
+
+
+        <script src="javascript.js" defer></script>
+</body>
+</html>
