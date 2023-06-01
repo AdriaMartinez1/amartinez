@@ -1,0 +1,11 @@
+Model Information:
+* title:	Pz6 Tiger 1 tank / interior
+* source:	https://sketchfab.com/3d-models/pz6-tiger-1-tank-interior-56ef13c429c84da6b83571068e9012ac
+* author:	Sellpet (https://sketchfab.com/Sellpet)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Pz6 Tiger 1 tank / interior" (https://sketchfab.com/3d-models/pz6-tiger-1-tank-interior-56ef13c429c84da6b83571068e9012ac) by Sellpet (https://sketchfab.com/Sellpet) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
