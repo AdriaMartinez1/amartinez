@@ -1,5 +1,8 @@
 <html>
-  <audio src="WOT.mp3" controls autoplay loop></audio> 
+  <audio loop autoplay>
+    <source src="WOT.mp3" type="audio/mp3">
+</audio>
+
   <head>
     <script src="https://aframe.io/releases/1.2.0/aframe.min.js"></script>
   </head>
@@ -7,10 +10,8 @@
     <a-scene>
         <a-assets>
             <a-asset-item id="Sala" src="Sala/scene.gltf"></a-asset-item>
-            <a-asset-item id="Tank1" src="Tank1/scene.gltf"></a-asset-item>
         </a-assets>
         <a-entity gltf-model="#Sala" position="2 -45 0" rotation="0 90 0" scale="1 1 1"></a-entity>        
-        <a-entity gltf-model="#Tank1" position="-80 -45 70" rotation="0 90 0" scale="70 70 70"></a-entity>
     </a-scene>
   </body>
 </html>
